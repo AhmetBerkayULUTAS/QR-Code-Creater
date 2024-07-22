@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 
 root = Tk()
-root.title("QR code Genetator")
+root.title("QR Code Genetator")
 root.geometry("1000x600")
 root.config(bg="#FFB266")
 root.resizable(False,False)
@@ -63,10 +63,6 @@ def bw_img_center_of_qr(img_path,qr):
     return qr
 
 
-def img_bg_of_qr(img_path,qr):########
-    img = Image.open(img_path)
-    return qr##########
-
 
 def save_and_show(qr,name):
     if not os.path.exists("./qrcodes"):
@@ -88,7 +84,6 @@ def generate():
     qr=qrcode.make(text)
     
     qr = qr.resize((450, 450))
-
 
     if img_path:
 
