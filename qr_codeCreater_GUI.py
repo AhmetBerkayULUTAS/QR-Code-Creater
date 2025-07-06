@@ -11,13 +11,13 @@ APP_TITLE = "QR Kod Oluşturucu"
 APP_RESIZABLE = True 
 
 # Renk paleti
-COLOR_PRIMARY_BG = "#FFB266" # Ana arka plan rengi 
-COLOR_SECONDARY_BG = "#FFD7A8" # Daha açık turuncu
-COLOR_DARK_ACCENT = "#333333" # Koyu vurgu rengi (Butonlar, Metin Arka Planları)
-COLOR_DARKER_ACCENT = "#1A1A1A" # Daha koyu vurgu rengi
-COLOR_TEXT_LIGHT = "#FFFFFF" # Açık metin (Koyu arka planlar üzerinde)
-COLOR_TEXT_DARK = "#333333" # Koyu metin (Açık arka planlar üzerinde)
-COLOR_ERROR = "#FF5733" # Hata rengi 
+COLOR_PRIMARY_BG = "#FFB266" 
+COLOR_SECONDARY_BG = "#FFD7A8"
+COLOR_DARK_ACCENT = "#333333" 
+COLOR_DARKER_ACCENT = "#1A1A1A"
+COLOR_TEXT_LIGHT = "#FFFFFF" 
+COLOR_TEXT_DARK = "#333333" 
+COLOR_ERROR = "#FF5733" 
 
 FONT_HEADER = ("Segoe UI", 18, "bold")
 FONT_SUBHEADER = ("Segoe UI", 14, "bold")
@@ -25,7 +25,7 @@ FONT_BODY = ("Segoe UI", 12)
 FONT_BUTTON = ("Segoe UI", 12, "bold")
 
 QR_CODE_SAVE_DIR = "./qrcodes"
-QR_CODE_DISPLAY_SIZE = (450, 450) # QR kodun gösterileceği boyut
+QR_CODE_DISPLAY_SIZE = (450, 450) 
 
 class QRCodeGeneratorApp:
     def __init__(self, master):
